@@ -9,11 +9,10 @@ jupyter = "*"
 numpy = "*"
 matplotlib = "*"
 seaborn = "*"
-ipywidgets = "*"
 plotly = "*"
 scipy = "*"
 missingno = "*"
-scikit-learn = "*"
+
 
 [dev-packages]
 

@@ -1,0 +1,31 @@
+Spotify Dataset Analysis
+Overview:
+This notebook contains an analysis of a Spotify dataset to explore various musical features and artist information. The dataset includes information on songs, such as danceability, valence, energy, acousticness, instrumentalness, liveness, and speechiness, as well as details about the artists. The analysis aims to uncover insights about music trends and characteristics.
+
+Dataset:
+The dataset is provided in JSON format and was loaded into a pandas DataFrame for analysis. It contains information on a wide range of songs and artists.
+
+Analysis Steps:
+Data Transformation and Cleaning:
+Data was loaded from the JSON file into a pandas DataFrame.
+The dataset was cleaned and transformed to facilitate analysis.
+Outlier Detection:
+Outliers in the "danceability_%" feature were detected using various methods, including Z-scores and the Median Absolute Deviation (MAD) method.
+Anomaly Detection:
+Anomalies in the dataset were identified and documented.
+Duplicates and missing values were handled appropriately.
+Class Imbalance:
+Class imbalance for selected features, including "key," "mode," "danceability_%," and "artist(s)_name," was checked.
+Potential consequences of class imbalances were considered.
+Artist Analysis:
+A specific analysis was performed to determine the count of songs by a particular artist, "Taylor Swift."
+Conclusion
+The analysis provides valuable insights into the dataset, addressing outliers, anomalies, and class imbalances. The process of data transformation, cleaning, and analysis ensures the reliability of the results obtained.
+
+Usage:
+To use this notebook, follow these steps:
+
+Download the dataset in JSON format.
+Run the notebook to perform the analysis.
+Dependencies
+The Python libraries required to run the notebook can be found in the pipfile. You can install them using pipenv.
